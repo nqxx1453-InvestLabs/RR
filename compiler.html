@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Compiler</title>
+</head>
+<body>
+    <script>
+        // Mock Node.js require and fs
+        const module = {};
+        window.compiledHtml = "";
+        function require(name) {
+            if (name === 'fs') {
+                return {
+                    writeFileSync: function(path, content) {
+                        window.compiledHtml = content;
+                    }
+                };
+            }
+            if (name === 'path') {
+                return {
+                    resolve: function(p) { return p; }
+                };
+            }
+        }
+    </script>
+    <script src="generate_dashboard.js"></script>
+    <script>
+        // After generate_dashboard.js runs, it will call fs.writeFileSync
+        // and window.compiledHtml will contain the compiled HTML!
+        // We will display it in a textarea.
+        const textarea = document.createElement('textarea');
+        textarea.id = 'output';
+        textarea.style.width = '100%';
+        textarea.style.height = '500px';
+        textarea.value = window.compiledHtml;
+        document.body.appendChild(textarea);
+    </script>
+</body>
+</html>

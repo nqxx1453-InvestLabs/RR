@@ -1,0 +1,143 @@
+﻿[
+    
+    {
+        "name": "Lido Finance", "logo": "🪙", "type": "Akışkan Staking Lideri", "metric": "$34.0 Milyar+ (TVL)", "speed": "İstikrarlı Liderlik",
+        "business": "Staking ödüllerinden alınan %10 protokol ücreti (fee) üzerinden gelir elde eder. stETH aracılığıyla DeFi ekosistemine devasa likidite sağlar.",
+        "s": "Sektördeki en yüksek likidite, güçlü akıllı sözleşme kod kalitesi, sürekli bağımsız denetim raporları.",
+        "w": "Ethereum konsensüs mekanizması üzerinde aşırı pazar payına sahip olmanın getirdiği merkezileşme riski.",
+        "lesson": "Neden Kazandı: Güçlü ve sürekli akıllı sözleşme denetimleri, pazar likiditesi üzerinde erken dönemde kurulan tekel ve DeFi genelinde stETH'i standart yapması.",
+        "implemented": [
+            {"time": "Uygulanan", "event": "stETH likidite havuzları ve DeFi entegrasyonları."},
+            {"time": "Uygulanan", "event": "V3 modüler staking mimarisinin hayata geçirilmesi."}
+        ],
+        "phantom": [
+            {"time": "Vaat", "event": "Tam izinsiz node operatörlüğü (ValMart) hala test aşamasında."}
+        ]
+    },
+    {
+        "name": "EigenLayer", "logo": "🌀", "type": "Yeniden Staking Standardı", "metric": "$12.0 Milyar+ (TVL)", "speed": "Çok Hızlı Büyüme",
+        "business": "AVS işlemlerinden kesilen komisyonlar ve yeniden stake edilen varlıklardan alınan işlem ücretleriyle çalışır. Ethereum güvenliğini diğer ağlara kiralar.",
+        "s": "Sektörde tamamen yeni bir pazar yaratması, sermaye verimliliğini maksimuma çıkarması.",
+        "w": "Protokol karmaşıklığı, akıllı sözleşmelerde üst üste binen risk katmanları.",
+        "lesson": "Neden Kazandı: ETH staking güvenliğini diğer protokollere kiralayarak ekosistem genelinde paylaşımlı güvenlik katmanı oluşturması.",
+        "implemented": [
+            {"time": "Uygulanan", "event": "AVS altyapısının devreye alınması."},
+            {"time": "Uygulanan", "event": "EigenDA (veri kullanılabilirliği katmanı) entegrasyonu."}
+        ],
+        "phantom": [
+            {"time": "Vaat", "event": "Otonom slashing motoru ve otomatik ceza sistemi."}
+        ]
+    },
+    {
+        "name": "Rocket Pool", "logo": "🚀", "type": "Merkeziyetsiz Likit Staking", "metric": "$4.0 Milyar+ (TVL)", "speed": "Dengeli Büyüme",
+        "business": "Bireysel düğüm operatörlerinin yatırdığı ETH'ler üzerinden alınan komisyonlar ve RPL token ödülleriyle çalışır.",
+        "s": "Gerçek merkeziyetsiz düğüm yapısı, yüksek sansür direnci.",
+        "w": "Lido'ya göre daha düşük likidite ve rETH entegrasyon oranları.",
+        "lesson": "Neden Kazandı: Lido'nun merkezileşme riskine karşı topluluk odaklı, sansür direnci yüksek bir alternatif sunması.",
+        "implemented": [
+            {"time": "Uygulanan", "event": "8 ETH ile mini-node kurulumu (Atlas Güncellemesi - LEB8)."},
+            {"time": "Uygulanan", "event": "rETH basımının ve likidite havuzlarının aktif edilmesi."}
+        ],
+        "phantom": [
+            {"time": "Vaat", "event": "Kurumsal saklama çözümleri tam entegrasyonu."}
+        ]
+    },
+    {
+        "name": "Jito Network", "logo": "🔥", "type": "Solana MEV Optimizasyonu", "metric": "$2.5 Milyar+ (TVL)", "speed": "Hızlı Büyüme",
+        "business": "Solana ağında MEV (Maksimum Çıkarılabilir Değer) ödüllerini staking getirisine ekleyerek LST (JitoSOL) sunar.",
+        "s": "Solana ağındaki en optimize MEV altyapısı, yüksek APY oranları.",
+        "w": "Solana ekosisteminin teknik kesintilerine bağımlılık.",
+        "lesson": "Neden Kazandı: Solana ağındaki spam işlemlerin önüne geçen MEV optimizasyonlu doğrulayıcı ağı kurması.",
+        "implemented": [
+            {"time": "Uygulanan", "event": "JitoSOL ödül dağıtım motorunun kurulması."},
+            {"time": "Uygulanan", "event": "Performanslı MEV istemcisinin Solana doğrulayıcılarına entegrasyonu."}
+        ],
+        "phantom": [
+            {"time": "Vaat", "event": "Çoklu zincir MEV entegrasyonları."}
+        ]
+    },
+    {
+        "name": "Aave V3", "logo": "👻", "type": "Likidite Dağıtım Devi", "metric": "$15.0 Milyar+ (TVL)", "speed": "Dengeli",
+        "business": "Borç verme/alma faiz marjları, flaş kredi ücretleri ve protokol rezerv komisyonları ile çalışır.",
+        "s": "Devasa likidite gücü, çoklu zincir desteği ve yüksek güvenlikli risk parametreleri.",
+        "w": "Sistemik DeFi riskleri, teminat stablecoinlerin de-peg riski.",
+        "lesson": "Neden Kazandı: DeFi dünyasında en güvenilir borç alma ve verme pazarı olarak kendini kanıtlaması.",
+        "implemented": [
+            {"time": "Uygulanan", "event": "Portal (zincirler arası varlık transferi) altyapısı."},
+            {"time": "Uygulanan", "event": "High-Efficiency Mode (E-Mode) ile verimlilik."}
+        ],
+        "phantom": [
+            {"time": "Vaat", "event": "GHO stabil coininin tam otonom peg koruma algoritması."}
+        ]
+    },
+    {
+        "name": "MakerDAO / Sky", "logo": "🦅", "type": "DAI Sabit Para Altyapısı", "metric": "$8.0 Milyar+ (TVL)", "speed": "İstikrarlı",
+        "business": "DAI sabit para ihracından alınan faizler ve RWA (Gerçek Dünya Varlığı) yatırımlarından elde edilen getiriler.",
+        "s": "İlk ve en büyük merkeziyetsiz stablecoin projesi olması, devasa hazine yönetimi.",
+        "w": "RWA varlıklarının fiziksel dünyadaki hukuki riskleri.",
+        "lesson": "Neden Kazandı: Geleneksel tahvil ve hazine bonolarını teminat olarak kullanarak çıpayı desteklemesi.",
+        "implemented": [
+            {"time": "Uygulanan", "event": "RWA (Gerçek Dünya Varlığı) teminatlandırması."},
+            {"time": "Uygulanan", "event": "Sky ekosistemi ve yeni tasarruf oranları."}
+        ],
+        "phantom": [
+            {"time": "Vaat", "event": "Tam otonom alt-DAO yönetim modeli."}
+        ]
+    },
+    {
+        "name": "Uniswap Labs", "logo": "🦄", "type": "Likidite Havuz Standardı", "metric": "Sınırsız (Hacim)", "speed": "Pazar Lideri",
+        "business": "Kullanıcılardan alınan likidite havuzu işlem ücretleri ve UNI token yönetişimi.",
+        "s": "DeFi genelindeki en yüksek işlem hacmi, izinsiz pazar kurma kolaylığı.",
+        "w": "Geçici kayıp (impermanent loss) riski, front-running saldırıları.",
+        "lesson": "Neden Kazandı: Basit, şeffaf ve izinsiz AMM standardını getirerek takasları zincir üstüne kaydırması.",
+        "implemented": [
+            {"time": "Uygulanan", "event": "V4 Hooks mimarisinin geliştirilmesi."},
+            {"time": "Uygulanan", "event": "Konsantre likidite (V3) modelleri."}
+        ],
+        "phantom": [
+            {"time": "Vaat", "event": "Mobil cüzdan içi yerleşik anlık on-chain limit emir motoru."}
+        ]
+    },
+    {
+        "name": "Frax Finance", "logo": "⚖️", "type": "Hibrit DeFi Sistemi", "metric": "$1.2 Milyar+ (TVL)", "speed": "Orta Hızlı",
+        "business": "FRAX stabil coininin algoritmik pazar işlemleri (AMO) ve frxETH staking komisyonları.",
+        "s": "Algoritmik faiz ve likidite yönetimi, Curve ekosistemindeki rüşvet gücü.",
+        "w": "Karmaşık çoklu token yapısı ve sistemik de-peg riskleri.",
+        "lesson": "Neden Kazandı: Kısmi teminatlı sabit coinler ve staking türevleri arasında yüksek verimliliğe sahip hibrit bir finansal ağ kurması.",
+        "implemented": [
+            {"time": "Uygulanan", "event": "Fraxlend borç verme piyasası."},
+            {"time": "Uygulanan", "event": "frxETH V2 likit staking altyapısı."}
+        ],
+        "phantom": [
+            {"time": "Vaat", "event": "Tamamen yapay zekaya bağlı otonom faiz dengeleme modülü."}
+        ]
+    },
+    {
+        "name": "Coinbase Cloud", "logo": "☁️", "type": "Kurumsal Doğrulayıcı", "metric": "Kurumsal Hacim", "speed": "Güvenilir / Sabit",
+        "business": "Kurumsal müşteriler için staking altyapısı sunar ve staking ödüllerinden servis ücreti keser.",
+        "s": "Regülasyonlara tam uyum, sıfır slashing cezası ve yüksek altyapı güvenliği.",
+        "w": "Yüksek servis komisyonları, merkezi borsa yapısına bağımlılık.",
+        "lesson": "Neden Kazandı: Kurumsal düzeyde yasal uyumluluk ve kesintisiz doğrulayıcı altyapısı sunarak büyük fonları çekmesi.",
+        "implemented": [
+            {"time": "Uygulanan", "event": "%99.9 Uptime garantisinin sunulması."},
+            {"time": "Uygulanan", "event": "SLA (Hizmet Seviyesi Anlaşması) sigortaları."}
+        ],
+        "phantom": [
+            {"time": "Vaat", "event": "Bireysel kullanıcılar için düşük komisyonlu erişim havuzları."}
+        ]
+    },
+    {
+        "name": "Stake.com", "logo": "🎲", "type": "Kripto Bahis Lideri", "metric": "$2.6 Milyar (Gelir)", "speed": "Agresif Büyüme",
+        "business": "Kasa avantajı (house edge) ve spor bahis marjları. Kick.com entegrasyonu sayesinde sıfıra yakın kullanıcı edinme maliyeti.",
+        "s": "Provably Fair oyun altyapısı, anında kripto çekim motoru, Kick.com entegrasyonu.",
+        "w": "Küresel bahis regülasyonlarının getirdiği kısıtlamalar.",
+        "lesson": "Neden Kazandı: Kriptonun hız avantajını kumar sektörüyle birleştirmesi ve geleneksel reklam yasaklarını Kick üzerinden aşması.",
+        "implemented": [
+            {"time": "Uygulanan", "event": "Provably Fair oyun mimarisi ve anında çekim motoru."},
+            {"time": "Uygulanan", "event": "Kick.com entegrasyonu ve yayıncılık ekosistemi."}
+        ],
+        "phantom": [
+            {"time": "Vaat", "event": "Tamamen merkeziyetsiz, DAO yönetimli on-chain casino versiyonu."}
+        ]
+    }
+]
